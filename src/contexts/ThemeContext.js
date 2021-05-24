@@ -8,7 +8,7 @@ const LightTheme= createContext()
 export default function ThemeContext (){
    return (
     <div>
-    <LightTheme.Provider value={{backgroundColor:"white", color:"black"}}>
+    <LightTheme.Provider value={{backgroundColor:"grey", color:"black"}}>
     <DarkTheme.Provider value ={{backgroundColor:"black", color:"white"}}>
     <NavBar/>
     </DarkTheme.Provider>

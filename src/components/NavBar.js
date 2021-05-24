@@ -3,18 +3,16 @@ import { useContext } from 'react'
 
 const NavBar = () => {
     const light=useContext(LightTheme)
-    console.log(light)  //giving undefined
-
+    console.log(light)  
     const dark=useContext(DarkTheme)
-    console.log(dark) //giving undefined
-
-   
+    console.log(dark)
+    
     return ( 
         <nav>
         <h1>Context App</h1>
         <ul>
         <li style={dark}>Home</li>
-        <li>Contact</li>
+        <li style ={light}>Contact</li>
         <li>About</li>
         </ul>
         </nav>
