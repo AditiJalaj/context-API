@@ -3,10 +3,10 @@ import { useContext } from 'react'
 
 const NavBar = () => {
     const light=useContext(LightTheme)
-    console.log(light)  
+     
     const dark=useContext(DarkTheme)
-    console.log(dark)
     
+
     return ( 
         <nav>
         <h1>Context App</h1>

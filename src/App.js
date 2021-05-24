@@ -5,8 +5,12 @@ import ThemeContext from './contexts/ThemeContext'
 const App = () => {
  
      return ( <div>
-    <ThemeContext><NavBar/> </ThemeContext>
-   <BookList/>
+    <ThemeContext>
+    <NavBar/>
+    </ThemeContext>
+    <BookList/>
+   
+  
     </div> );
 }
  
