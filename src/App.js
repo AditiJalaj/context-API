@@ -7,8 +7,9 @@ const App = () => {
      return ( <div>
     <ThemeContext>
     <NavBar/>
-    </ThemeContext>
     <BookList/>
+    </ThemeContext>
+    
    
   
     </div> );
