@@ -9,8 +9,6 @@ const App = () => {
     <NavBar/>
     <BookList/>
     </ThemeContext>
-    
-   
   
     </div> );
 }
